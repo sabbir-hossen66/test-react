@@ -6,10 +6,11 @@ import Header from '../../components/Header';
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white flex flex-col">
+    <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white flex flex-col ">
       <Header/>
       <Banner/>
       <Feature/>
+      {/* <Card/> */}
       <Footer/>
     </div>
   );

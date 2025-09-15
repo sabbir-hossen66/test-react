@@ -48,7 +48,7 @@ const Feature = () => {
   ];
 
   return (
-    <div className="relative bg-black p-8 md:p-16">
+    <div className="relative bg-black p-8 md:p-16 ">
       {/* Top Badge */}
       <div className="mb-8">
         <span className="inline-block px-4 py-2 bg-emerald-500 text-black text-sm font-medium rounded-full">
@@ -72,7 +72,7 @@ const Feature = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-8xl">
        {features.map((feature, i) =>
    feature.empty ? (
-      <div key={i} className="invisible"></div> // ফাঁকা জায়গা রাখবে
+      <div key={i} className="invisible"></div> 
     ) : (
       <FeatureCard key={i} title={feature.title} span={feature.span} />
     )

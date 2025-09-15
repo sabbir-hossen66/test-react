@@ -2,7 +2,7 @@ import { ShoppingCart } from "lucide-react";
 
   const Header = () => {
     return (
-     <div className=" bg-black text-white overflow-x-hidden ">
+     <div className=" bg-black text-white overflow-x-hidden">
       {/* Scrolling Announcement Banner */}
       <div className="bg-emerald-600 py-2 overflow-hidden">
         <div className="animate-marquee whitespace-nowrap">
@@ -88,10 +88,6 @@ import { ShoppingCart } from "lucide-react";
         </div>
       </main>
 
-      {/* Spacer for additional content */}
-      <div className="h-96 flex items-center justify-center text-gray-500">
-        <p>Additional features and content will go here...</p>
-      </div>
     </div>
     );
   };
